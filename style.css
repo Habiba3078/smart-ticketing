@@ -1,0 +1,16 @@
+.coupon::before, .coupon::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+}
+.coupon::before {
+    left: -10px;
+}
+.coupon::after {
+    right: -10px;
+}
