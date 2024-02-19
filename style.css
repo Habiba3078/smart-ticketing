@@ -1,4 +1,4 @@
-.coupon::before, .coupon::after {
+/* .coupon::before, .coupon::after {
     content: '';
     position: absolute;
     top: 50%;
@@ -13,4 +13,4 @@
 }
 .coupon::after {
     right: -10px;
-}
+} */
